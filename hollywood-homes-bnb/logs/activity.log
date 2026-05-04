@@ -1,0 +1,8 @@
+2026-05-01 18:08:34 | 127.0.0.1 | Admin login | Failed login attempt for admin
+2026-05-01 18:10:37 | 127.0.0.1 | Admin login | Failed login attempt for admin
+2026-05-01 18:10:51 | 127.0.0.1 | Admin login | Failed login attempt for admin
+2026-05-01 18:11:54 | 127.0.0.1 | Admin login | Failed login attempt for admin
+2026-05-01 18:11:55 | 127.0.0.1 | Admin login | Failed login attempt for admin
+2026-05-01 18:28:54 | 127.0.0.1 | Admin login | Successful login from 127.0.0.1
+2026-05-01 18:30:34 | 127.0.0.1 | Admin login | Successful login from 127.0.0.1
+{"timestamp":"2026-05-01 19:03:58","ip":"127.0.0.1","user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/147.0.0.0 Safari\/537.36","action":"Admin login","details":"Successful login from 127.0.0.1","level":"INFO"}

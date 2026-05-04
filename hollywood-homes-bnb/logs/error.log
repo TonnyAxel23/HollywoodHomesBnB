@@ -1,0 +1,922 @@
+[01-May-2026 18:21:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConnection() in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php on line 4
+[01-May-2026 18:21:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConnection() in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php on line 4
+[01-May-2026 18:21:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConnection() in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php on line 4
+[01-May-2026 18:21:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConnection() in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php on line 4
+[01-May-2026 18:21:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConnection() in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php on line 4
+[01-May-2026 18:21:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConnection() in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php on line 4
+[01-May-2026 18:21:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConnection() in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\hollywood-homes-bnb\reset-password.php on line 4
+[01-May-2026 18:28:56 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 18:29:35 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.created_at' in 'order clause'
+[01-May-2026 18:29:41 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 18:29:43 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 18:29:48 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.created_at' in 'order clause'
+[01-May-2026 18:29:51 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 18:29:56 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 18:30:34 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 18:31:36 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.created_at' in 'order clause'
+[01-May-2026 19:03:27 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:03:58 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:03:59 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:03:59 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:03:59 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 19:04:19 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:04:27 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:04:27 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.created_at' in 'order clause'
+[01-May-2026 19:04:29 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:04:32 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:04:36 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:04:40 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:04:43 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:04:50 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:04:50 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 19:04:53 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:04:55 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:04:55 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.created_at' in 'order clause'
+[01-May-2026 19:04:56 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:04:57 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:04:57 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 19:06:22 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:06:24 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:06:24 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.created_at' in 'order clause'
+[01-May-2026 19:06:26 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:08:08 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:08:23 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:08:23 Europe/Berlin] API Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 19:13:55 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:13:56 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:13:56 Europe/Berlin] API Called with action: adminGetStats
+[01-May-2026 19:13:56 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 19:13:58 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:13:58 Europe/Berlin] API Called with action: adminGetRooms
+[01-May-2026 19:14:00 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:14:00 Europe/Berlin] API Called with action: getRoom
+[01-May-2026 19:14:05 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:14:05 Europe/Berlin] API Called with action: getRoom
+[01-May-2026 19:14:08 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:14:08 Europe/Berlin] API Called with action: getRoom
+[01-May-2026 19:14:51 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:14:51 Europe/Berlin] API Called with action: getRoom
+[01-May-2026 19:15:19 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:15:19 Europe/Berlin] API Called with action: adminGetBookings
+[01-May-2026 19:15:19 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.created_at' in 'order clause'
+[01-May-2026 19:15:21 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:15:21 Europe/Berlin] API Called with action: adminGetMessages
+[01-May-2026 19:15:23 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:15:23 Europe/Berlin] API Called with action: adminGetBookings
+[01-May-2026 19:15:23 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.created_at' in 'order clause'
+[01-May-2026 19:15:28 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:15:28 Europe/Berlin] API Called with action: adminGetRooms
+[01-May-2026 19:19:24 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:19:24 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:19:25 Europe/Berlin] API Called with action: adminGetStats
+[01-May-2026 19:19:25 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 19:19:28 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:19:28 Europe/Berlin] API Called with action: adminGetRooms
+[01-May-2026 19:19:31 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:19:31 Europe/Berlin] API Called with action: getRoom
+[01-May-2026 19:19:40 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:19:40 Europe/Berlin] API Called with action: adminGetBookings
+[01-May-2026 19:19:40 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.created_at' in 'order clause'
+[01-May-2026 19:19:43 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:19:43 Europe/Berlin] API Called with action: adminGetMessages
+[01-May-2026 19:19:45 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:19:45 Europe/Berlin] API Called with action: adminGetBookings
+[01-May-2026 19:19:45 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.created_at' in 'order clause'
+[01-May-2026 19:19:47 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:19:47 Europe/Berlin] API Called with action: adminGetStats
+[01-May-2026 19:19:47 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_price' in 'field list'
+[01-May-2026 19:20:04 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:20:04 Europe/Berlin] API Called with action: adminGetRooms
+[01-May-2026 19:20:06 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:20:06 Europe/Berlin] API Called with action: adminGetBookings
+[01-May-2026 19:20:06 Europe/Berlin] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.created_at' in 'order clause'
+[01-May-2026 19:23:03 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:23:21 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:23:21 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:23:21 Europe/Berlin] API Called with action: adminGetStats
+[01-May-2026 19:23:26 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:23:26 Europe/Berlin] API Called with action: adminGetRooms
+[01-May-2026 19:23:29 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:23:29 Europe/Berlin] API Called with action: getRoom
+[01-May-2026 19:23:33 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:23:33 Europe/Berlin] API Called with action: adminGetBookings
+[01-May-2026 19:23:41 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:23:41 Europe/Berlin] API Called with action: adminGetMessages
+[01-May-2026 19:23:46 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:23:47 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:23:47 Europe/Berlin] API Called with action: adminGetStats
+[01-May-2026 19:23:52 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:23:52 Europe/Berlin] API Called with action: adminGetRooms
+[01-May-2026 19:23:54 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:23:54 Europe/Berlin] API Called with action: adminGetBookings
+[01-May-2026 19:23:55 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:23:55 Europe/Berlin] API Called with action: adminGetMessages
+[01-May-2026 19:24:30 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:33 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:33 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:35 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:44 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:46 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:46 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:48 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:51 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:51 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:54 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:54 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:56 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:24:56 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:25:01 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:25:34 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:25:39 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:26:07 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:26:07 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:26:28 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:26:38 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:26:45 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:26:46 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:26:54 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:28:06 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:29:10 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:29:15 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:30:25 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:30:37 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:30:45 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:30:45 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:30:51 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:31:04 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:31:07 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:31:07 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:31:10 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:31:17 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:31:22 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:31:22 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:31:25 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:31:34 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:31:48 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:31:55 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:32:56 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:00 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:03 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:05 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:06 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:07 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:08 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:09 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:11 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:32 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:39 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:46 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:48 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:50 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 19:33:52 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[01-May-2026 21:10:07 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 07:47:46 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 07:47:51 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 19:04:31 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 19:04:55 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 19:05:05 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 19:08:00 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 19:08:04 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 19:08:13 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 22:20:42 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 22:21:19 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 22:35:50 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 22:36:32 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 22:36:41 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 22:36:55 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 22:36:58 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 22:37:14 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 22:37:42 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[02-May-2026 22:43:41 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:18:15 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:28:07 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:28:15 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:28:17 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:28:19 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:28:22 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:28:28 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:28:30 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:29:53 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:30:21 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:30:40 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:30:43 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:30:44 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:30:45 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:35:28 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:35:51 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:35:52 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:35:52 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:35:59 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:36:02 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:36:04 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:36:06 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:36:11 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:41:51 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:41:51 Europe/Berlin] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 11:41:53 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:41:53 Europe/Berlin] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 11:41:53 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:41:53 Europe/Berlin] API Called: action=adminGetMessages, Method=GET
+[03-May-2026 11:41:55 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:41:55 Europe/Berlin] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 11:42:03 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:42:15 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:42:15 Europe/Berlin] API Called: action=getRooms, Method=GET
+[03-May-2026 11:42:24 Europe/Berlin] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 11:42:24 Europe/Berlin] API Called: action=getRooms, Method=GET
+[03-May-2026 12:45:50 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:45:50 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:45:50
+[03-May-2026 12:45:50 Africa/Nairobi] API Called: action=adminLogin, Method=POST
+[03-May-2026 12:45:50 Africa/Nairobi] Admin login successful: admin
+[03-May-2026 12:45:50 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:45:50 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:45:50
+[03-May-2026 12:45:50 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:45:50 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:45:50
+[03-May-2026 12:45:50 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 12:45:52 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:45:52 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:45:52
+[03-May-2026 12:45:52 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 12:45:58 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:45:58 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:45:58
+[03-May-2026 12:45:58 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 12:45:59 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:45:59 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:45:59
+[03-May-2026 12:45:59 Africa/Nairobi] API Called: action=adminGetMessages, Method=GET
+[03-May-2026 12:46:01 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:46:01 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:46:01
+[03-May-2026 12:46:01 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 12:51:38 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:51:38 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:51:38
+[03-May-2026 12:51:39 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:51:39 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:51:39
+[03-May-2026 12:51:39 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 12:51:46 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:51:46 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:51:46
+[03-May-2026 12:51:46 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 12:51:51 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:51:51 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:51:51
+[03-May-2026 12:51:51 Africa/Nairobi] API Called: action=getRoom, Method=GET
+[03-May-2026 12:51:59 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:51:59 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:51:59
+[03-May-2026 12:51:59 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 12:52:07 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:52:07 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:52:07
+[03-May-2026 12:52:07 Africa/Nairobi] API Called: action=adminGetMessages, Method=GET
+[03-May-2026 12:52:08 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:52:08 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:52:08
+[03-May-2026 12:52:08 Africa/Nairobi] API Called: action=adminGetAuditLogs, Method=GET
+[03-May-2026 12:52:27 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:52:27 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:52:27
+[03-May-2026 12:52:27 Africa/Nairobi] API Called: action=adminGetAuditLogs, Method=GET
+[03-May-2026 12:52:53 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:52:53 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:52:53
+[03-May-2026 12:52:53 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 12:52:56 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:52:56 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:52:56
+[03-May-2026 12:52:56 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 12:53:22 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:53:22 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:53:22
+[03-May-2026 12:53:22 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 12:53:23 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:53:23 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:53:23
+[03-May-2026 12:53:23 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 12:53:23 Africa/Nairobi] Config loaded successfully - 2026-05-03 12:53:23
+[03-May-2026 12:53:23 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 13:08:30 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:08:30 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:08:30
+[03-May-2026 13:08:30 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 13:08:32 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:08:32 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:08:32
+[03-May-2026 13:08:36 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:08:36 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:08:36
+[03-May-2026 13:08:47 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:08:47 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:08:47
+[03-May-2026 13:08:47 Africa/Nairobi] API Called: action=adminForgotPassword, Method=POST
+[03-May-2026 13:08:54 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:08:54 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:08:54
+[03-May-2026 13:29:56 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:29:56 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:29:56
+[03-May-2026 13:29:56 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 13:30:17 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:30:17 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:30:17
+[03-May-2026 13:30:17 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 13:30:33 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:30:33 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:30:33
+[03-May-2026 13:30:33 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 13:30:39 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:30:39 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:30:39
+[03-May-2026 13:30:39 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 13:32:20 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:32:20 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:32:20
+[03-May-2026 13:32:37 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:32:37 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:32:37
+[03-May-2026 13:32:37 Africa/Nairobi] API Called: action=adminLogin, Method=POST
+[03-May-2026 13:32:37 Africa/Nairobi] Admin login successful: admin
+[03-May-2026 13:32:37 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:32:37 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:32:37
+[03-May-2026 13:32:38 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:32:38 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:32:38
+[03-May-2026 13:32:38 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 13:32:43 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:32:43 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:32:43
+[03-May-2026 13:32:43 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 13:32:49 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:32:49 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:32:49
+[03-May-2026 13:32:49 Africa/Nairobi] API Called: action=getRoom, Method=GET
+[03-May-2026 13:32:53 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:32:53 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:32:53
+[03-May-2026 13:32:53 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 13:32:56 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:32:56 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:32:56
+[03-May-2026 13:32:56 Africa/Nairobi] API Called: action=adminGetMessages, Method=GET
+[03-May-2026 13:32:57 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:32:57 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:32:57
+[03-May-2026 13:32:57 Africa/Nairobi] API Called: action=adminGetAuditLogs, Method=GET
+[03-May-2026 13:33:14 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:33:14 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:33:14
+[03-May-2026 13:33:14 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 13:33:18 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:33:18 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:33:18
+[03-May-2026 13:33:18 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 13:35:03 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:35:03 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:35:03
+[03-May-2026 13:35:03 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 13:35:19 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:35:19 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:35:19
+[03-May-2026 13:35:19 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 13:35:23 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:35:23 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:35:23
+[03-May-2026 13:35:23 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 13:35:40 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:35:40 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:35:40
+[03-May-2026 13:35:40 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 13:35:44 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:35:44 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:35:44
+[03-May-2026 13:35:44 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 13:36:13 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:36:13 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:36:13
+[03-May-2026 13:36:13 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 13:37:20 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:37:20 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:37:20
+[03-May-2026 13:37:43 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:37:43 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:37:43
+[03-May-2026 13:41:36 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:41:36 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:41:36
+[03-May-2026 13:41:36 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 13:41:41 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 13:41:41 Africa/Nairobi] Config loaded successfully - 2026-05-03 13:41:41
+[03-May-2026 13:41:41 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 14:05:45 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:05:45 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:05:45
+[03-May-2026 14:06:02 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:06:02 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:06:02
+[03-May-2026 14:06:02 Africa/Nairobi] API Called: action=adminLogin, Method=POST
+[03-May-2026 14:06:02 Africa/Nairobi] Admin login successful: admin
+[03-May-2026 14:06:02 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:06:02 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:06:02
+[03-May-2026 14:06:02 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:06:02 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:06:02
+[03-May-2026 14:06:02 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 14:06:10 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:06:10 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:06:10
+[03-May-2026 14:06:10 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 14:06:12 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:06:12 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:06:12
+[03-May-2026 14:06:12 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 14:06:16 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:06:16 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:06:16
+[03-May-2026 14:06:16 Africa/Nairobi] API Called: action=adminGetMessages, Method=GET
+[03-May-2026 14:06:17 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:06:17 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:06:17
+[03-May-2026 14:06:17 Africa/Nairobi] API Called: action=adminGetAuditLogs, Method=GET
+[03-May-2026 14:08:03 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:08:03 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:08:03
+[03-May-2026 14:08:03 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 14:13:27 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:13:27 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:13:27
+[03-May-2026 14:13:27 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:13:27 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:13:27
+[03-May-2026 14:13:27 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 14:13:41 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:13:41 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:13:41
+[03-May-2026 14:13:41 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 14:13:52 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:13:52 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:13:52
+[03-May-2026 14:13:52 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 14:13:53 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:13:53 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:13:53
+[03-May-2026 14:13:53 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 14:13:54 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:13:54 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:13:54
+[03-May-2026 14:13:54 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 14:13:55 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:13:55 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:13:55
+[03-May-2026 14:13:55 Africa/Nairobi] API Called: action=adminGetMessages, Method=GET
+[03-May-2026 14:13:56 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:13:56 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:13:56
+[03-May-2026 14:13:56 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 14:13:57 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:13:57 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:13:57
+[03-May-2026 14:13:57 Africa/Nairobi] API Called: action=adminGetAuditLogs, Method=GET
+[03-May-2026 14:27:08 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:27:08 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:27:08
+[03-May-2026 14:27:08 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:27:08 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:27:08
+[03-May-2026 14:27:08 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 14:27:13 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:27:13 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:27:13
+[03-May-2026 14:27:13 Africa/Nairobi] API Called: action=adminGetAuditLogs, Method=GET
+[03-May-2026 14:27:42 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:27:42 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:27:42
+[03-May-2026 14:27:42 Africa/Nairobi] API Called: action=adminGetAuditLogs, Method=GET
+[03-May-2026 14:27:44 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:27:44 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:27:44
+[03-May-2026 14:27:44 Africa/Nairobi] API Called: action=adminGetMessages, Method=GET
+[03-May-2026 14:27:45 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:27:45 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:27:45
+[03-May-2026 14:27:45 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 14:27:52 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:27:52 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:27:52
+[03-May-2026 14:27:52 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 14:27:56 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:27:56 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:27:56
+[03-May-2026 14:27:56 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 14:27:59 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:27:59 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:27:59
+[03-May-2026 14:27:59 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 14:35:37 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:35:37 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:35:37
+[03-May-2026 14:35:37 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 14:41:29 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:41:29 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:41:29
+[03-May-2026 14:41:29 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 14:41:32 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:41:32 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:41:32
+[03-May-2026 14:41:33 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:41:33 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:41:33
+[03-May-2026 14:41:33 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 14:41:35 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:41:35 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:41:35
+[03-May-2026 14:41:35 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 14:41:42 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:41:42 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:41:42
+[03-May-2026 14:41:46 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:41:46 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:41:46
+[03-May-2026 14:41:46 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 14:41:48 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:41:48 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:41:48
+[03-May-2026 14:41:48 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 14:41:57 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:41:57 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:41:57
+[03-May-2026 14:41:57 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 14:42:06 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:06 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:06
+[03-May-2026 14:42:06 Africa/Nairobi] API Called: action=adminGetMessages, Method=GET
+[03-May-2026 14:42:07 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:07 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:07
+[03-May-2026 14:42:07 Africa/Nairobi] API Called: action=adminGetAuditLogs, Method=GET
+[03-May-2026 14:42:18 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:18 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:18
+[03-May-2026 14:42:18 Africa/Nairobi] API Called: action=adminGetMessages, Method=GET
+[03-May-2026 14:42:19 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:19 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:19
+[03-May-2026 14:42:19 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 14:42:29 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:29 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:29
+[03-May-2026 14:42:29 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 14:42:30 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:30 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:30
+[03-May-2026 14:42:30 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 14:42:39 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:39 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:39
+[03-May-2026 14:42:39 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 14:42:41 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:41 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:41
+[03-May-2026 14:42:41 Africa/Nairobi] API Called: action=adminGetMessages, Method=GET
+[03-May-2026 14:42:53 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:53 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:53
+[03-May-2026 14:42:53 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:53 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:53
+[03-May-2026 14:42:53 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 14:42:55 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:55 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:55
+[03-May-2026 14:42:55 Africa/Nairobi] API Called: action=adminGetAuditLogs, Method=GET
+[03-May-2026 14:42:57 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:57 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:57
+[03-May-2026 14:42:57 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 14:42:59 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:42:59 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:42:59
+[03-May-2026 14:42:59 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 14:43:03 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 14:43:03 Africa/Nairobi] Config loaded successfully - 2026-05-03 14:43:03
+[03-May-2026 14:43:03 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:01:53 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:01:53 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:01:53
+[03-May-2026 15:02:26 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:02:26 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:02:26
+[03-May-2026 15:02:26 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 15:02:31 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:02:31 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:02:31
+[03-May-2026 15:02:31 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:02:44 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:02:44 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:02:44
+[03-May-2026 15:02:44 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:03:53 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:03:53 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:03:53
+[03-May-2026 15:03:55 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:03:55 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:03:55
+[03-May-2026 15:04:17 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:04:17 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:04:17
+[03-May-2026 15:04:17 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:04:17 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:04:17
+[03-May-2026 15:04:17 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:04:21 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:04:21 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:04:21
+[03-May-2026 15:04:21 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 15:04:25 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:04:25 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:04:25
+[03-May-2026 15:04:25 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 15:04:34 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:04:34 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:04:34
+[03-May-2026 15:04:34 Africa/Nairobi] API Called: action=adminGetMessages, Method=GET
+[03-May-2026 15:04:36 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:04:36 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:04:36
+[03-May-2026 15:04:36 Africa/Nairobi] API Called: action=adminGetAuditLogs, Method=GET
+[03-May-2026 15:04:40 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:04:40 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:04:40
+[03-May-2026 15:04:40 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:04:43 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:04:43 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:04:43
+[03-May-2026 15:04:49 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:04:49 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:04:49
+[03-May-2026 15:04:52 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:04:52 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:04:52
+[03-May-2026 15:10:04 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:10:04 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:10:04
+[03-May-2026 15:10:04 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:10:08 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:10:08 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:10:08
+[03-May-2026 15:10:08 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:10:18 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:10:18 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:10:18
+[03-May-2026 15:10:18 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:11:28 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:11:28 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:11:28
+[03-May-2026 15:11:28 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:11:31 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:11:31 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:11:31
+[03-May-2026 15:11:31 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:12:42 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:12:42 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:12:42
+[03-May-2026 15:12:42 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:13:36 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:13:36 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:13:36
+[03-May-2026 15:13:36 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:14:32 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:14:32 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:14:32
+[03-May-2026 15:14:32 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:14:44 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:14:44 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:14:44
+[03-May-2026 15:14:44 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 15:14:47 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:14:47 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:14:47
+[03-May-2026 15:14:47 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:15:22 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:15:22 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:15:22
+[03-May-2026 15:15:22 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:15:24 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:15:24 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:15:24
+[03-May-2026 15:15:24 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:17:11 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:17:11 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:17:11
+[03-May-2026 15:17:11 Africa/Nairobi] API Called: action=adminLogin, Method=POST
+[03-May-2026 15:17:11 Africa/Nairobi] Admin login successful: admin
+[03-May-2026 15:17:11 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:17:11 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:17:11
+[03-May-2026 15:17:12 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:17:12 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:17:12
+[03-May-2026 15:17:12 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:17:14 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:17:14 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:17:14
+[03-May-2026 15:17:14 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:17:14 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:17:14
+[03-May-2026 15:17:14 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:17:16 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:17:16 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:17:16
+[03-May-2026 15:17:16 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:17:16 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:17:16
+[03-May-2026 15:17:16 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:17:28 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:17:28 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:17:28
+[03-May-2026 15:17:29 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:17:29 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:17:29
+[03-May-2026 15:17:29 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:17:30 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:17:30 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:17:30
+[03-May-2026 15:17:30 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:17:30 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:17:30
+[03-May-2026 15:17:30 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:18:31 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:18:31 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:18:31
+[03-May-2026 15:19:01 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:19:01 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:19:01
+[03-May-2026 15:21:08 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:21:08 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:21:08
+[03-May-2026 15:21:24 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:21:24 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:21:24
+[03-May-2026 15:21:34 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:21:34 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:21:34
+[03-May-2026 15:21:56 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:21:56 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:21:56
+[03-May-2026 15:24:23 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:24:23 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:24:23
+[03-May-2026 15:24:36 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:24:36 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:24:36
+[03-May-2026 15:24:42 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:24:42 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:24:42
+[03-May-2026 15:26:36 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:26:36 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:26:36
+[03-May-2026 15:26:36 Africa/Nairobi] API Called: action=adminLogin, Method=POST
+[03-May-2026 15:26:36 Africa/Nairobi] Admin login successful: admin
+[03-May-2026 15:26:36 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:26:36 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:26:36
+[03-May-2026 15:26:36 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:26:36 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:26:36
+[03-May-2026 15:26:36 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:29:05 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:29:05 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:29:05
+[03-May-2026 15:29:05 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:29:05 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:29:05
+[03-May-2026 15:29:05 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:29:49 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:29:49 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:29:49
+[03-May-2026 15:29:49 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 15:31:24 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:31:24 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:31:24
+[03-May-2026 15:31:24 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 15:32:55 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:32:55 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:32:55
+[03-May-2026 15:32:55 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 15:33:35 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:33:35 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:33:35
+[03-May-2026 15:33:35 Africa/Nairobi] API Called: action=getRoom, Method=GET
+[03-May-2026 15:34:04 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:34:04 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:34:04
+[03-May-2026 15:34:04 Africa/Nairobi] API Called: action=bookRoom, Method=POST
+[03-May-2026 15:34:05 Africa/Nairobi] Booking created: BKG69F740B for Tonny Odhiambo - Total: $302.4
+[03-May-2026 15:34:09 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:34:09 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:34:09
+[03-May-2026 15:34:09 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:34:14 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:34:14 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:34:14
+[03-May-2026 15:34:15 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:34:15 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:34:15
+[03-May-2026 15:34:15 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:34:19 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:34:19 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:34:19
+[03-May-2026 15:34:19 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 15:34:26 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:34:26 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:34:26
+[03-May-2026 15:34:26 Africa/Nairobi] API Called: action=adminGetBooking, Method=GET
+[03-May-2026 15:34:45 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:34:45 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:34:45
+[03-May-2026 15:34:45 Africa/Nairobi] API Called: action=adminUpdateBookingStatus, Method=POST
+[03-May-2026 15:34:45 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:34:45 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:34:45
+[03-May-2026 15:34:45 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 15:34:53 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:34:53 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:34:53
+[03-May-2026 15:34:53 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 15:34:56 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:34:56 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:34:56
+[03-May-2026 15:34:56 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:35:03 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:35:03 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:35:03
+[03-May-2026 15:35:03 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:35:08 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:35:08 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:35:08
+[03-May-2026 15:35:08 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 15:35:21 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:35:21 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:35:21
+[03-May-2026 15:35:21 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:35:33 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:35:33 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:35:33
+[03-May-2026 15:35:33 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 15:35:34 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:35:34 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:35:34
+[03-May-2026 15:35:34 Africa/Nairobi] API Called: action=getRoom, Method=GET
+[03-May-2026 15:35:40 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:35:40 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:35:40
+[03-May-2026 15:35:40 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:35:46 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:35:46 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:35:46
+[03-May-2026 15:35:46 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 15:35:46 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:35:46 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:35:46
+[03-May-2026 15:35:46 Africa/Nairobi] API Called: action=getRoom, Method=GET
+[03-May-2026 15:36:01 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:36:01 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:36:01
+[03-May-2026 15:36:01 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 15:36:03 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:36:03 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:36:03
+[03-May-2026 15:36:03 Africa/Nairobi] API Called: action=adminGetBooking, Method=GET
+[03-May-2026 15:36:28 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:36:28 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:36:28
+[03-May-2026 15:36:28 Africa/Nairobi] API Called: action=adminGetBooking, Method=GET
+[03-May-2026 15:36:57 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:36:57 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:36:57
+[03-May-2026 15:36:57 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 15:37:01 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:37:01 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:37:01
+[03-May-2026 15:37:01 Africa/Nairobi] API Called: action=getRoom, Method=GET
+[03-May-2026 15:37:12 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:37:12 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:37:12
+[03-May-2026 15:37:12 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 15:37:23 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:37:23 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:37:23
+[03-May-2026 15:37:23 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 15:37:24 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:37:24 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:37:24
+[03-May-2026 15:37:24 Africa/Nairobi] API Called: action=getRoom, Method=GET
+[03-May-2026 15:37:26 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:37:26 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:37:26
+[03-May-2026 15:37:26 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:37:29 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:37:29 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:37:29
+[03-May-2026 15:37:29 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 15:38:45 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:38:45 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:38:45
+[03-May-2026 15:38:45 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[03-May-2026 15:38:48 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:38:48 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:38:48
+[03-May-2026 15:38:48 Africa/Nairobi] API Called: action=adminGetBookings, Method=GET
+[03-May-2026 15:38:53 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 15:38:53 Africa/Nairobi] Config loaded successfully - 2026-05-03 15:38:53
+[03-May-2026 15:38:53 Africa/Nairobi] API Called: action=adminGetAuditLogs, Method=GET
+[03-May-2026 16:21:16 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:21:16 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:21:16
+[03-May-2026 16:21:16 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 16:21:20 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:21:20 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:21:20
+[03-May-2026 16:21:21 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:21:21 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:21:21
+[03-May-2026 16:21:21 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 16:21:30 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:21:30 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:21:30
+[03-May-2026 16:21:33 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:21:33 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:21:33
+[03-May-2026 16:21:46 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:21:46 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:21:46
+[03-May-2026 16:21:50 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:21:50 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:21:50
+[03-May-2026 16:22:01 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:22:01 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:22:01
+[03-May-2026 16:22:23 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:22:23 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:22:23
+[03-May-2026 16:22:23 Africa/Nairobi] API Called: action=adminLogin, Method=POST
+[03-May-2026 16:22:23 Africa/Nairobi] Admin login successful: admin
+[03-May-2026 16:22:23 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:22:23 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:22:23
+[03-May-2026 16:22:23 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:22:23 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:22:23
+[03-May-2026 16:22:23 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 16:22:33 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:22:33 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:22:33
+[03-May-2026 16:22:33 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:22:33 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:22:33
+[03-May-2026 16:22:33 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[03-May-2026 16:22:40 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:22:40 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:22:40
+[03-May-2026 16:22:43 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:22:43 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:22:43
+[03-May-2026 16:26:29 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:26:29 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:26:29
+[03-May-2026 16:59:15 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:59:15 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:59:15
+[03-May-2026 16:59:23 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:59:23 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:59:23
+[03-May-2026 16:59:23 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 16:59:23 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:59:23 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:59:23
+[03-May-2026 16:59:25 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:59:25 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:59:25
+[03-May-2026 16:59:25 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 16:59:32 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:59:32 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:59:32
+[03-May-2026 16:59:32 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[03-May-2026 16:59:41 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 16:59:41 Africa/Nairobi] Config loaded successfully - 2026-05-03 16:59:41
+[03-May-2026 16:59:41 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 20:00:36 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 20:00:36 Africa/Nairobi] Config loaded successfully - 2026-05-03 20:00:36
+[03-May-2026 20:00:36 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[03-May-2026 20:11:07 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[03-May-2026 20:11:07 Africa/Nairobi] Config loaded successfully - 2026-05-03 20:11:07
+[04-May-2026 10:32:01 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:32:01 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:32:01
+[04-May-2026 10:32:01 Africa/Nairobi] API Called: action=adminLogin, Method=POST
+[04-May-2026 10:32:01 Africa/Nairobi] Admin login successful: admin
+[04-May-2026 10:32:05 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:32:05 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:32:05
+[04-May-2026 10:32:08 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:32:08 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:32:08
+[04-May-2026 10:32:08 Africa/Nairobi] API Called: action=adminGetStats, Method=GET
+[04-May-2026 10:32:18 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:32:18 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:32:18
+[04-May-2026 10:32:18 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[04-May-2026 10:36:58 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:36:58 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:36:58
+[04-May-2026 10:36:58 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[04-May-2026 10:39:36 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:39:36 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:39:36
+[04-May-2026 10:39:36 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[04-May-2026 10:39:48 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:39:48 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:39:48
+[04-May-2026 10:39:48 Africa/Nairobi] API Called: action=getRoom, Method=GET
+[04-May-2026 10:39:55 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:39:55 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:39:55
+[04-May-2026 10:39:55 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[04-May-2026 10:46:17 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:46:17 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:46:17
+[04-May-2026 10:46:17 Africa/Nairobi] API Called: action=getRoom, Method=GET
+[04-May-2026 10:46:28 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:46:28 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:46:28
+[04-May-2026 10:46:28 Africa/Nairobi] API Called: action=adminUpdateRoom, Method=POST
+[04-May-2026 10:46:29 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:46:29 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:46:29
+[04-May-2026 10:46:29 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[04-May-2026 10:46:48 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:46:48 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:46:48
+[04-May-2026 10:46:48 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[04-May-2026 10:47:19 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:47:19 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:47:19
+[04-May-2026 10:47:19 Africa/Nairobi] API Called: action=getRoom, Method=GET
+[04-May-2026 10:47:27 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:47:27 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:47:27
+[04-May-2026 10:47:27 Africa/Nairobi] API Called: action=adminUpdateRoom, Method=POST
+[04-May-2026 10:47:28 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:47:28 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:47:28
+[04-May-2026 10:47:28 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[04-May-2026 10:47:43 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:47:43 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:47:43
+[04-May-2026 10:47:43 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[04-May-2026 10:48:53 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:48:53 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:48:53
+[04-May-2026 10:48:53 Africa/Nairobi] API Called: action=getRoom, Method=GET
+[04-May-2026 10:48:59 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:48:59 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:48:59
+[04-May-2026 10:48:59 Africa/Nairobi] API Called: action=adminUpdateRoom, Method=POST
+[04-May-2026 10:48:59 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:48:59 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:48:59
+[04-May-2026 10:48:59 Africa/Nairobi] API Called: action=adminGetRooms, Method=GET
+[04-May-2026 10:49:04 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:49:04 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:49:04
+[04-May-2026 10:49:04 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[04-May-2026 10:50:56 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:50:56 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:50:56
+[04-May-2026 10:50:56 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[04-May-2026 10:51:47 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:51:47 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:51:47
+[04-May-2026 10:51:47 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[04-May-2026 10:52:24 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:52:24 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:52:24
+[04-May-2026 10:52:24 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[04-May-2026 10:52:55 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:52:55 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:52:55
+[04-May-2026 10:52:55 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[04-May-2026 10:53:27 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:53:27 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:53:27
+[04-May-2026 10:53:27 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[04-May-2026 10:53:34 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:53:34 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:53:34
+[04-May-2026 10:53:34 Africa/Nairobi] API Called: action=getRooms, Method=GET
+[04-May-2026 10:53:37 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:53:37 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:53:37
+[04-May-2026 10:53:37 Africa/Nairobi] API Called: action=getAllRooms, Method=GET
+[04-May-2026 10:53:38 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:53:38 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:53:38
+[04-May-2026 10:53:38 Africa/Nairobi] API Called: action=getRoom, Method=GET
+[04-May-2026 10:53:54 Africa/Nairobi] Database installation failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'setting_type' in 'field list'
+[04-May-2026 10:53:54 Africa/Nairobi] Config loaded successfully - 2026-05-04 10:53:54
+[04-May-2026 10:53:54 Africa/Nairobi] API Called: action=getRooms, Method=GET

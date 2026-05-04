@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="Experience unparalleled luxury at Hollywood Homes BnB - Bungoma's premier 5-star boutique accommodation. Book your dream stay today.">
+    <meta name="keywords" content="Luxury hotel Bungoma, Hollywood Homes, premium suites, Kenya luxury accommodation, boutique B&B">
+    <meta name="author" content="Hollywood Homes BnB">
+    <title>Hollywood Homes BnB | Bungoma's Ultimate Luxury Experience</title>
+    
+    <!-- Fonts & Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23D4AF37'/%3E%3Ctext x='50' y='70' font-size='50' text-anchor='middle' fill='%23000' font-weight='bold'%3EHH%3C/text%3E%3C/svg%3E">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --gold: #D4AF37;
+            --gold-dark: #B8942E;
+            --gold-light: #F5E6A3;
+            --black: #000000;
+            --black-light: #0A0A0A;
+            --gray: #1A1A1A;
+            --gray-light: #2A2A2A;
+            --white: #FFFFFF;
+            --success: #10B981;
+            --error: #EF4444;
+            --transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow-xl: 0 25px 50px rgba(0,0,0,0.4);
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: var(--black);
+            color: var(--white);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Cormorant Garamond', serif;
+        }
+
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1rem 0;
+            background: transparent;
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        .navbar.scrolled {
+            background: rgba(0,0,0,0.95);
+            backdrop-filter: blur(20px);
+            padding: 0.8rem 0;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Logo Styles */
+        .logo {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-img {
+            height: 80px;
+            width: auto;
+            transition: all 0.3s ease;
+        }
+
+        .logo-img:hover {
+            transform: scale(1.02);
+            filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.5));
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .book-now-btn {
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            color: #000 !important;
+            padding: 0.7rem 2rem !important;
+            border-radius: 50px;
+        }
+
+        /* Admin Login Button */
+        .admin-login-btn {
+            background: transparent;
+            border: 1px solid var(--gold);
+            color: var(--gold) !important;
+            padding: 0.5rem 1.5rem !important;
+            border-radius: 50px;
+            transition: var(--transition);
+        }
+
+        .admin-login-btn:hover {
+            background: var(--gold);
+            color: #000 !important;
+            transform: translateY(-2px);
+        }
+
+        .mobile-menu {
+            display: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: var(--gold);
+            z-index: 1001;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            position: relative;
+            background: linear-gradient(135deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.5) 100%),
+                        url('https://images.pexels.com/photos/2587054/pexels-photo-2587054.jpeg?auto=compress&cs=tinysrgb&w=1920');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-content {
+            text-align: center;
+            padding: 0 2rem;
+            max-width: 900px;
+            margin-top: -50px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(212, 175, 55, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 0.7rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            color: var(--gold);
+            margin-bottom: 2rem;
+        }
+
+        .hero-content h1 {
+            font-size: 5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .hero-content h1 span {
+            color: var(--gold);
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 2rem;
+            letter-spacing: 2px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            cursor: pointer;
+            border: none;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            color: #000;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(212,175,55,0.4);
+        }
+
+        .btn-outline {
+            border: 2px solid var(--gold);
+            background: transparent;
+            color: var(--gold);
+        }
+
+        .btn-outline:hover {
+            background: var(--gold);
+            color: #000;
+            transform: translateY(-3px);
+        }
+
+        /* Booking Widget */
+        .booking-widget {
+            position: relative;
+            max-width: 1200px;
+            margin: -80px auto 0;
+            background: rgba(26, 26, 26, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 2rem;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            z-index: 10;
+            box-shadow: var(--shadow-xl);
+        }
+
+        .widget-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            align-items: end;
+        }
+
+        .widget-field {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .widget-field label {
+            color: var(--gold);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .widget-field input,
+        .widget-field select {
+            padding: 1rem;
+            background: rgba(0,0,0,0.8);
+            border: 1px solid rgba(212,175,55,0.3);
+            color: white;
+            border-radius: 12px;
+        }
+
+        .widget-field input:focus,
+        .widget-field select:focus {
+            outline: none;
+            border-color: var(--gold);
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, var(--black-light) 0%, var(--black) 100%);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .section-subtitle {
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-content h2 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: white;
+        }
+
+        .about-content h2 span {
+            color: var(--gold);
+        }
+
+        .about-text {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #ccc;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--gold);
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 0.5rem;
+        }
+
+        .about-image {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            transition: var(--transition);
+        }
+
+        .about-image:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Rooms Section */
+        .rooms-section {
+            padding: 6rem 0;
+            background: var(--black);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-header h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .section-header p {
+            color: #888;
+        }
+
+        .rooms-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .room-card {
+            background: linear-gradient(135deg, var(--gray) 0%, var(--black-light) 100%);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: var(--transition);
+            cursor: pointer;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .room-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--gold);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .room-image {
+            position: relative;
+            overflow: hidden;
+            height: 280px;
+        }
+
+        .room-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .room-card:hover .room-image img {
+            transform: scale(1.1);
+        }
+
+        .room-price {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: var(--gold);
+            color: #000;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: 700;
+        }
+
+        .room-info {
+            padding: 1.5rem;
+        }
+
+        .room-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--gold);
+        }
+
+        .room-info p {
+            color: #aaa;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .room-features {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem 0;
+            color: #888;
+            font-size: 0.85rem;
+        }
+
+        .room-features i {
+            color: var(--gold);
+            margin-right: 0.3rem;
+        }
+
+        /* Amenities Section */
+        .amenities-section {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, var(--black-light) 0%, var(--gray) 100%);
+        }
+
+        .amenities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .amenity-card {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(26, 26, 26, 0.5);
+            border-radius: 20px;
+            transition: var(--transition);
+            border: 1px solid rgba(212, 175, 55, 0.1);
+        }
+
+        .amenity-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--gold);
+            background: rgba(26, 26, 26, 0.8);
+        }
+
+        .amenity-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 2rem;
+            color: #000;
+        }
+
+        .amenity-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: white;
+        }
+
+        .amenity-card p {
+            color: #aaa;
+        }
+
+        /* Testimonials Section */
+        .testimonials-section {
+            padding: 6rem 0;
+            background: var(--black);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        .testimonial-card {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, var(--gray) 0%, var(--black-light) 100%);
+            border-radius: 20px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            transition: var(--transition);
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--gold);
+        }
+
+        .testimonial-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            font-size: 2.5rem;
+            color: #000;
+        }
+
+        .rating {
+            color: var(--gold);
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-text {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 1rem 0;
+            font-style: italic;
+            color: #ccc;
+        }
+
+        .testimonial-name {
+            font-weight: 700;
+            margin-top: 1rem;
+            color: white;
+        }
+
+        .testimonial-title {
+            color: var(--gold);
+            font-size: 0.85rem;
+        }
+
+        /* Newsletter Section */
+        .newsletter-section {
+            padding: 5rem 0;
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            color: #000;
+        }
+
+        .newsletter-container {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .newsletter-container h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            padding: 1rem 1.5rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+        }
+
+        .newsletter-form button {
+            background: #000;
+            color: var(--gold);
+            border: none;
+            padding: 0 2rem;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .newsletter-form button:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(180deg, var(--black-light) 0%, var(--black) 100%);
+            padding: 4rem 0 2rem;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-col h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .footer-col h3 span {
+            color: var(--gold);
+        }
+
+        .footer-col p {
+            color: #888;
+            line-height: 1.6;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.8rem;
+            color: #888;
+        }
+
+        .footer-links a {
+            color: #888;
+            text-decoration: none;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .footer-links a:hover {
+            color: var(--gold);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(212, 175, 55, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gold);
+            transition: var(--transition);
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            background: var(--gold);
+            color: #000;
+            transform: translateY(-3px);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        /* WhatsApp Float */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: #25D366;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: white;
+            text-decoration: none;
+            z-index: 1000;
+            transition: var(--transition);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4); }
+            70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            left: 2rem;
+            width: 50px;
+            height: 50px;
+            background: var(--gold);
+            color: #000;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 1000;
+        }
+
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-5px);
+        }
+
+        .loading-spinner {
+            text-align: center;
+            padding: 3rem;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(212,175,55,0.3);
+            border-top-color: #D4AF37;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 968px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background: rgba(0,0,0,0.95);
+                padding: 2rem;
+                text-align: center;
+                gap: 1.5rem;
+            }
+            .nav-links.show {
+                display: flex;
+            }
+            .mobile-menu {
+                display: block;
+            }
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+            .widget-grid {
+                grid-template-columns: 1fr;
+            }
+            .section-header h2 {
+                font-size: 2rem;
+            }
+            .newsletter-form {
+                flex-direction: column;
+            }
+            .rooms-grid {
+                grid-template-columns: 1fr;
+            }
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+            .logo-img {
+                height: 45px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1.5rem;
+            }
+            .hero-buttons {
+                flex-direction: column;
+            }
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<div class="navbar" id="navbar">
+    <div class="container nav-container">
+        <div class="logo" onclick="window.location.href='index.html'">
+            <img src="images/logo.png" alt="Hollywood Homes BnB" class="logo-img">
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+            <li><a href="#rooms" onclick="scrollToSection('rooms')">Suites</a></li>
+            <li><a href="#amenities" onclick="scrollToSection('amenities')">Amenities</a></li>
+            <li><a href="#testimonials" onclick="scrollToSection('testimonials')">Reviews</a></li>
+            <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
+            <li><a href="booking.html" class="book-now-btn">Book Now</a></li>
+            <li><a href="admin.php" class="admin-login-btn"><i class="fas fa-user-shield"></i> Admin</a></li>
+        </ul>
+    </div>
+</div>
+
+<main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-up">
+                <i class="fas fa-crown"></i> Award-Winning Luxury Boutique
+            </div>
+            <h1 data-aos="fade-up" data-aos-delay="100">
+                Where Comfort <span>Meets</span> Class
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                Experience unparalleled luxury in the heart of Bungoma Town
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                <button class="btn btn-primary" onclick="window.location.href='booking.html'">
+                    <i class="fas fa-calendar-check"></i> Book Your Stay
+                </button>
+                <button class="btn btn-outline" onclick="scrollToSection('rooms')">
+                    <i class="fas fa-video"></i> Explore Suites
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Widget -->
+    <div class="booking-widget" data-aos="fade-up">
+        <div class="widget-grid">
+            <div class="widget-field">
+                <label><i class="fas fa-calendar-alt"></i> Check In</label>
+                <input type="date" id="widgetCheckin">
+            </div>
+            <div class="widget-field">
+                <label><i class="fas fa-calendar-alt"></i> Check Out</label>
+                <input type="date" id="widgetCheckout">
+            </div>
+            <div class="widget-field">
+                <label><i class="fas fa-user"></i> Guests</label>
+                <select id="widgetGuests">
+                    <option>1 Guest</option>
+                    <option selected>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                </select>
+            </div>
+            <div class="widget-field">
+                <button class="btn btn-primary" onclick="checkAvailability()">
+                    <i class="fas fa-search"></i> Check Availability
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content" data-aos="fade-right">
+                    <div class="section-subtitle">Welcome to Hollywood Homes</div>
+                    <h2>Experience <span>Luxury</span> Like Never Before</h2>
+                    <p class="about-text">
+                        Nestled in the vibrant heart of Bungoma Town, Hollywood Homes BnB represents the pinnacle of luxury accommodation in Western Kenya. Our meticulously designed suites blend Hollywood glamour with authentic Kenyan hospitality, creating an unforgettable experience for discerning travelers.
+                    </p>
+                    <p class="about-text">
+                        Each of our premium suites features high-speed fiber WiFi, Netflix premium access, and 24/7 dedicated concierge service. Whether you're visiting for business or pleasure, we ensure every moment of your stay is nothing short of extraordinary.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Happy Guests</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">4.9</div>
+                            <div class="stat-label">Rating</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Service</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <img src="https://images.pexels.com/photos/12931939/pexels-photo-12931939.jpeg" alt="Luxury Suite">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="rooms-section" id="rooms">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-subtitle">Luxury Accommodations</div>
+                <h2>Our Signature Suites</h2>
+                <p>Discover the epitome of comfort and elegance</p>
+            </div>
+            <div id="roomsContainer">
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                    <p>Loading luxury suites...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section class="amenities-section" id="amenities">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-subtitle">Premium Amenities</div>
+                <h2>Everything You Need</h2>
+                <p>Experience comfort at its finest</p>
+            </div>
+            <div class="amenities-grid">
+                <div class="amenity-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="amenity-icon"><i class="fas fa-wifi"></i></div>
+                    <h3>Fiber Optic WiFi</h3>
+                    <p>Ultra-fast internet throughout the property</p>
+                </div>
+                <div class="amenity-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="amenity-icon"><i class="fab fa-netflix"></i></div>
+                    <h3>Netflix Premium</h3>
+                    <p>Unlimited access to all your favorite shows</p>
+                </div>
+                <div class="amenity-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="amenity-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>24/7 Security</h3>
+                    <p>CCTV surveillance and secure access</p>
+                </div>
+                <div class="amenity-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="amenity-icon"><i class="fas fa-concierge-bell"></i></div>
+                    <h3>Concierge Service</h3>
+                    <p>Always available for your needs</p>
+                </div>
+                <div class="amenity-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="amenity-icon"><i class="fas fa-car"></i></div>
+                    <h3>Free Parking</h3>
+                    <p>Secure on-site parking included</p>
+                </div>
+                <div class="amenity-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="amenity-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Gourmet Dining</h3>
+                    <p>Delicious meals delivered to your suite</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-subtitle">Guest Experiences</div>
+                <h2>What Our Guests Say</h2>
+                <p>Real stories from happy guests</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Absolutely phenomenal experience! The attention to detail, cleanliness, and hospitality are unmatched. The staff went above and beyond to make our stay memorable."</p>
+                    <div class="testimonial-name">Sarah Johnson</div>
+                    <div class="testimonial-title">Travel Blogger</div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Best B&B in Bungoma! The suites are luxurious, WiFi is blazing fast, and Netflix made our evenings perfect. Will definitely be coming back!"</p>
+                    <div class="testimonial-name">Michael Otieno</div>
+                    <div class="testimonial-title">Business Executive</div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"A hidden gem! The luxury suites exceeded our expectations. Perfect for remote work with high-speed internet. The location is ideal - close to everything but peaceful."</p>
+                    <div class="testimonial-name">James Mwangi</div>
+                    <div class="testimonial-title">Digital Nomad</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container newsletter-container" data-aos="fade-up">
+            <h2>Exclusive Offers</h2>
+            <p>Subscribe to receive special promotions and early bird discounts</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" id="newsletterEmail" placeholder="Your email address" required>
+                <button type="submit"><i class="fas fa-paper-plane"></i> Subscribe</button>
+            </form>
+            <div id="newsletterMsg" style="margin-top: 1rem;"></div>
+        </div>
+    </section>
+</main>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/254792069328" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Back to Top -->
+<div class="back-to-top" id="backToTop" onclick="scrollToSection('home')">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
+<!-- Footer -->
+<footer id="contact">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>HOLLYWOOD<span>HOMES</span></h3>
+                <p>Experience the perfect blend of Hollywood glamour and Kenyan hospitality in the heart of Bungoma Town.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+                    <li><a href="#rooms" onclick="scrollToSection('rooms')">Suites</a></li>
+                    <li><a href="#amenities" onclick="scrollToSection('amenities')">Amenities</a></li>
+                    <li><a href="#testimonials" onclick="scrollToSection('testimonials')">Reviews</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> Bungoma Town, Kenya</li>
+                    <li><i class="fas fa-phone"></i> +254 792 069 328</li>
+                    <li><i class="fas fa-envelope"></i> tonnyodhiambo49@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Business Hours</h3>
+                <ul class="footer-links">
+                    <li>Check-in: 2:00 PM</li>
+                    <li>Check-out: 11:00 AM</li>
+                    <li>24/7 Guest Support</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Hollywood Homes BnB - Where Comfort Meets Class. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init({ duration: 1000, once: true, offset: 100 });
+
+function formatKES(amount) {
+    return 'KSh ' + parseInt(amount).toLocaleString();
+}
+
+window.addEventListener('scroll', () => {
+    const navbar = document.getElementById('navbar');
+    const backToTop = document.getElementById('backToTop');
+    if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+        backToTop.classList.add('show');
+    } else {
+        navbar.classList.remove('scrolled');
+        backToTop.classList.remove('show');
+    }
+});
+
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    document.getElementById('navLinks').classList.remove('show');
+}
+
+document.getElementById('mobileMenu')?.addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('show');
+});
+
+async function fetchRooms() {
+    try {
+        const response = await fetch('api.php?action=getRooms');
+        const data = await response.json();
+        if (data.success && data.rooms) displayRooms(data.rooms);
+        else showError('No rooms available');
+    } catch (error) {
+        console.error(error);
+        showError('Failed to load rooms. Please refresh the page.');
+    }
+}
+
+function displayRooms(rooms) {
+    const container = document.getElementById('roomsContainer');
+    if (!container) return;
+    if (rooms.length === 0) {
+        container.innerHTML = '<div style="text-align: center; padding: 3rem; color: #888;">No rooms available at the moment.</div>';
+        return;
+    }
+    const roomsHTML = `<div class="rooms-grid">${rooms.map(room => `<div class="room-card" onclick="window.location.href='booking.html?room=${room.id}'"><div class="room-image"><img src="${room.image_url || 'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg'}" alt="${escapeHtml(room.name)}" onerror="this.src='https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg'"><div class="room-price">${formatKES(room.price)}<small>/night</small></div></div><div class="room-info"><h3>${escapeHtml(room.name)}</h3><p>${escapeHtml(room.short_description || (room.description || '').substring(0, 100) || 'Luxury suite with premium amenities')}...</p><div class="room-features"><span><i class="fas fa-wifi"></i> WiFi</span><span><i class="fab fa-netflix"></i> Netflix</span><span><i class="fas fa-hot-tub"></i> Luxury</span></div><button class="btn btn-primary" style="width: 100%; margin-top: 1rem;" onclick="event.stopPropagation(); window.location.href='booking.html?room=${room.id}'"><i class="fas fa-calendar-check"></i> Book Now</button></div></div>`).join('')}</div>`;
+    container.innerHTML = roomsHTML;
+}
+
+function showError(message) {
+    const container = document.getElementById('roomsContainer');
+    if (container) container.innerHTML = `<div style="text-align: center; padding: 3rem; color: #888;"><i class="fas fa-exclamation-triangle" style="font-size: 3rem; margin-bottom: 1rem; display: block;"></i>${message}</div>`;
+}
+
+function checkAvailability() {
+    const checkin = document.getElementById('widgetCheckin').value;
+    const checkout = document.getElementById('widgetCheckout').value;
+    if (!checkin || !checkout) { alert('Please select check-in and check-out dates'); return; }
+    window.location.href = `booking.html?checkin=${checkin}&checkout=${checkout}`;
+}
+
+function escapeHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/[&<>]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[m]));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetchRooms();
+    const today = new Date().toISOString().split('T')[0];
+    const widgetCheckin = document.getElementById('widgetCheckin');
+    if (widgetCheckin) widgetCheckin.min = today;
+    
+    document.getElementById('newsletterForm')?.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = document.getElementById('newsletterEmail').value;
+        const msgDiv = document.getElementById('newsletterMsg');
+        try {
+            const response = await fetch('api.php?action=subscribeNewsletter', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email }) });
+            const result = await response.json();
+            if (result.success) { msgDiv.innerHTML = '<div style="color: #000; background: rgba(0,0,0,0.1); padding: 0.5rem; border-radius: 10px;">✓ Subscribed successfully!</div>'; e.target.reset(); setTimeout(() => msgDiv.innerHTML = '', 3000); }
+            else msgDiv.innerHTML = '<div style="color: #000;">Subscription failed. Please try again.</div>';
+        } catch (error) { msgDiv.innerHTML = '<div style="color: #000;">Error. Please try again.</div>'; }
+    });
+});
+
+window.scrollToSection = scrollToSection;
+window.checkAvailability = checkAvailability;
+</script>
+</body>
+</html>
