@@ -95,7 +95,7 @@ The system automatically creates the following tables on first run:
 
 ## 🔧 Installation Guide
 
-### Prerequisites
+### Prerequisites 
 - XAMPP / WAMP / MAMP / LAMP stack
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
