@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root { --gold: #D4AF37; --gold-dark: #B8942E; --dark: #0a0a0a; --darker: #000000; --gray: #1a1a1a; --success: #10b981; --danger: #ef4444; }
+        :root { --gold: #D4AF37; --gold-dark: #B8942E; --dark: #0a0a0a; --darker: #000000; --gray: #1a1a1a; --success: #10b981; --danger: #ef4444; --warning: #f59e0b; }
         body { font-family: 'Montserrat', sans-serif; background: var(--dark); color: white; }
         h1, h2, h3 { font-family: 'Playfair Display', serif; }
         
@@ -16,22 +16,18 @@
         .container { max-width: 1400px; margin: 0 auto; padding: 0 2rem; }
         .nav-container { display: flex; justify-content: space-between; align-items: center; }
         .logo-img {
-    height: 80px;
-    width: auto;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.logo-img:hover {
-    transform: scale(1.02);
-    filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.5));
-}
-
-@media (max-width: 768px) {
-    .logo-img {
-        height: 45px;
-    }
-}
+            height: 80px;
+            width: auto;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .logo-img:hover {
+            transform: scale(1.02);
+            filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.5));
+        }
+        @media (max-width: 768px) {
+            .logo-img { height: 45px; }
+        }
         .nav-links { display: flex; gap: 2rem; list-style: none; }
         .nav-links a { color: white; text-decoration: none; transition: all 0.3s; cursor: pointer; }
         .nav-links a:hover { color: var(--gold); }
@@ -55,13 +51,123 @@
         .price-row { display: flex; justify-content: space-between; margin-bottom: 0.8rem; color: #ccc; }
         .price-row.total { font-size: 1.2rem; font-weight: 700; color: var(--gold); margin-top: 0.8rem; padding-top: 0.8rem; border-top: 1px solid rgba(255,255,255,0.1); }
         
+        /* Availability Alert Styles - ENHANCED */
+        .availability-alert {
+            margin: 20px 0;
+            padding: 0;
+            border-radius: 16px;
+            overflow: hidden;
+            animation: slideDown 0.5s ease;
+        }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .alert-available {
+            background: linear-gradient(135deg, rgba(16,185,129,0.15), rgba(16,185,129,0.05));
+            border-left: 5px solid var(--success);
+            border-top: 1px solid rgba(16,185,129,0.3);
+            border-right: 1px solid rgba(16,185,129,0.3);
+            border-bottom: 1px solid rgba(16,185,129,0.3);
+        }
+        .alert-unavailable {
+            background: linear-gradient(135deg, rgba(239,68,68,0.2), rgba(239,68,68,0.08));
+            border-left: 5px solid var(--danger);
+            border-top: 1px solid rgba(239,68,68,0.3);
+            border-right: 1px solid rgba(239,68,68,0.3);
+            border-bottom: 1px solid rgba(239,68,68,0.3);
+            animation: shake 0.5s ease;
+        }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+        .alert-checking {
+            background: linear-gradient(135deg, rgba(212,175,55,0.15), rgba(212,175,55,0.05));
+            border-left: 5px solid var(--gold);
+            border-top: 1px solid rgba(212,175,55,0.3);
+            border-right: 1px solid rgba(212,175,55,0.3);
+            border-bottom: 1px solid rgba(212,175,55,0.3);
+        }
+        .alert-content {
+            padding: 18px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .alert-icon {
+            font-size: 28px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: rgba(0,0,0,0.3);
+        }
+        .alert-message {
+            flex: 1;
+        }
+        .alert-title {
+            font-weight: 800;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        .alert-description {
+            font-size: 0.85rem;
+            opacity: 0.9;
+        }
+        .alert-available .alert-icon { color: var(--success); }
+        .alert-available .alert-title { color: var(--success); }
+        .alert-unavailable .alert-icon { color: var(--danger); }
+        .alert-unavailable .alert-title { color: var(--danger); }
+        .alert-checking .alert-icon { color: var(--gold); }
+        .alert-checking .alert-title { color: var(--gold); }
+        
+        /* Alternative Dates Suggestion Box */
+        .suggestion-box {
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(0,0,0,0.4);
+            border-radius: 12px;
+            border: 1px dashed rgba(212,175,55,0.3);
+        }
+        .suggestion-box p {
+            color: #ccc;
+            font-size: 0.85rem;
+            margin-bottom: 10px;
+        }
+        .suggestion-dates {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .suggestion-btn {
+            background: rgba(212,175,55,0.2);
+            border: 1px solid var(--gold);
+            color: var(--gold);
+            padding: 8px 15px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: all 0.3s;
+        }
+        .suggestion-btn:hover {
+            background: var(--gold);
+            color: #000;
+        }
+        
         .booking-form { background: linear-gradient(135deg, var(--gray), var(--darker)); border-radius: 20px; padding: 2rem; border: 1px solid rgba(212,175,55,0.2); }
         .form-group { margin-bottom: 1.5rem; }
         .form-group label { display: block; margin-bottom: 0.5rem; color: var(--gold); font-weight: 500; }
         .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 1rem; background: rgba(0,0,0,0.6); border: 1px solid rgba(212,175,55,0.3); color: white; border-radius: 12px; }
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus { outline: none; border-color: var(--gold); }
         .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
         .btn-submit { width: 100%; padding: 1rem; background: linear-gradient(135deg, var(--gold), var(--gold-dark)); color: #000; border: none; border-radius: 12px; font-weight: 700; cursor: pointer; transition: all 0.3s; }
         .btn-submit:hover { transform: translateY(-2px); }
+        .btn-submit:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
         
         .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); z-index: 2000; justify-content: center; align-items: center; }
         .modal-content { background: var(--gray); max-width: 500px; width: 90%; padding: 2rem; border-radius: 20px; border: 1px solid var(--gold); text-align: center; }
@@ -86,8 +192,9 @@
             .nav-links.show { display: flex; }
             .mobile-menu { display: block; }
             .form-row { grid-template-columns: 1fr; }
+            .alert-content { flex-direction: column; text-align: center; }
+            .alert-icon { margin: 0 auto; }
         }
-        
     </style>
 </head>
 <body>
@@ -95,8 +202,8 @@
 <div class="navbar">
     <div class="container nav-container">
         <div class="logo" onclick="window.location.href='index.html'">
-    <img src="images/logo.png" alt="Hollywood Homes BnB" class="logo-img">
-</div>
+            <img src="images/logo.png" alt="Hollywood Homes BnB" class="logo-img">
+        </div>
         <div class="mobile-menu" id="mobileMenu"><i class="fas fa-bars"></i></div>
         <ul class="nav-links" id="navLinks">
             <li><a href="index.html">Home</a></li>
@@ -125,24 +232,48 @@
                     <div class="form-group"><label>Email Address *</label><input type="email" id="email" required placeholder="john@example.com"></div>
                     <div class="form-row"><div class="form-group"><label>Check-in Date *</label><input type="date" id="checkin" required></div><div class="form-group"><label>Check-out Date *</label><input type="date" id="checkout" required></div></div>
                     <div class="form-group"><label>Select Suite *</label><select id="roomSelect" required><option value="">Loading rooms...</option></select></div>
-                    <div class="form-group"><label>Special Requests</label><textarea id="specialRequests" rows="3" placeholder="Any special requests? (dietary, early check-in, etc.)"></textarea></div>
-                    <button type="submit" class="btn-submit" id="submitBtn"><i class="fas fa-check-circle"></i> Confirm Booking</button>
+                    <div class="form-group">
+                        <label>Special Requests</label>
+                        <textarea id="specialRequests" rows="3" placeholder="Any special requests? (dietary, early check-in, etc.)"></textarea>
+                    </div>
+                    
+                    <!-- Enhanced Availability Alert Container -->
+                    <div id="availabilityAlert" style="display: none;"></div>
+                    
+                    <button type="submit" class="btn-submit" id="submitBtn" disabled><i class="fas fa-check-circle"></i> Select Room & Dates</button>
                 </form>
             </div>
         </div>
     </div>
 </section>
 
-<div class="modal" id="successModal"><div class="modal-content"><i class="fas fa-check-circle"></i><h2>Booking Confirmed!</h2><p>Your luxury stay has been successfully booked.</p><div class="booking-ref" id="bookingRef"></div><button class="btn-submit" onclick="closeModal()">View My Booking</button></div></div>
+<div class="modal" id="successModal">
+    <div class="modal-content">
+        <i class="fas fa-check-circle"></i>
+        <h2>Booking Request Sent!</h2>
+        <p>Your booking request has been received. Please complete payment to confirm your reservation.</p>
+        <div class="booking-ref" id="bookingRef"></div>
+        <div style="margin-top: 15px;">
+            <button class="btn-submit" onclick="closeModal()" style="margin: 5px;">View My Booking</button>
+        </div>
+    </div>
+</div>
 
-<footer><div class="container"><p>📍 Bungoma Town, Kenya | 📞 +254 712 345 678 | ✉️ stay@hollywoodhomesbnb.com</p><p style="margin-top: 1rem; font-size: 0.85rem;">© 2025 Hollywood Homes BnB - Where Comfort Meets Class</p></div></footer>
+<footer>
+    <div class="container">
+        <p>📍 Bungoma Town, Kenya | 📞 +254 792 069 328 | ✉️ tonnyodhiambo49@gmail.com</p>
+        <p style="margin-top: 1rem; font-size: 0.85rem;">© 2025 Hollywood Homes BnB - Where Comfort Meets Class</p>
+    </div>
+</footer>
 
-<a href="https://wa.me/254712345679" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+<a href="https://wa.me/254792069328" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
 
 <script>
 let selectedRoom = null;
 let roomsList = [];
 let pricePerNight = 0;
+let currentAvailability = false;
+let isCheckingAvailability = false;
 
 function formatKES(amount) {
     return 'KSh ' + parseInt(amount).toLocaleString();
@@ -174,6 +305,11 @@ async function fetchRooms() {
                 const roomSelect = document.getElementById('roomSelect');
                 if (roomSelect) { roomSelect.value = params.room; await loadRoomDetails(params.room); }
             }
+            if (params.checkin && params.checkout) {
+                document.getElementById('checkin').value = params.checkin;
+                document.getElementById('checkout').value = params.checkout;
+                await checkAvailability();
+            }
             return data.rooms;
         }
         return [];
@@ -200,6 +336,7 @@ async function loadRoomDetails(roomId) {
             selectedRoom = data.room;
             pricePerNight = parseFloat(selectedRoom.price);
             updateSummary();
+            await checkAvailability();
         }
     } catch (error) { console.error(error); }
 }
@@ -230,10 +367,197 @@ function updateSummary() {
         total = subtotal + serviceFee + tax;
     }
     
+    let availabilityHtml = '';
+    if (checkin && checkout && roomId) {
+        if (currentAvailability) {
+            availabilityHtml = `<div style="margin-top: 15px; padding: 12px; background: rgba(16,185,129,0.15); border-radius: 10px; text-align: center; border: 1px solid var(--success);">
+                <i class="fas fa-check-circle" style="color: var(--success);"></i> <span style="color: var(--success); font-weight: bold;">✓ Room Available! You can proceed with booking.</span>
+            </div>`;
+        } else {
+            availabilityHtml = `<div style="margin-top: 15px; padding: 12px; background: rgba(239,68,68,0.15); border-radius: 10px; text-align: center; border: 1px solid var(--danger);">
+                <i class="fas fa-times-circle" style="color: var(--danger);"></i> <span style="color: var(--danger); font-weight: bold;">✗ Room NOT Available for these dates!</span>
+            </div>`;
+        }
+    }
+    
     summaryDiv.innerHTML = `<div class="summary-title"><i class="fas fa-receipt"></i> Booking Summary</div>
         <div class="room-detail"><img src="${selectedRoom.image_url || 'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg'}" alt="${escapeHtml(selectedRoom.name)}" onerror="this.src='https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg'"><div><h3>${escapeHtml(selectedRoom.name)}</h3><p>${escapeHtml(selectedRoom.short_description || (selectedRoom.description || '').substring(0, 80))}...</p><div class="room-price">${formatKES(pricePerNight)} <span style="font-size: 0.8rem;">/ night</span></div></div></div>
         <div class="booking-dates"><h4 style="margin-bottom: 1rem; color: var(--gold);">Stay Details</h4><div class="date-item"><span>Check-in:</span><span>${checkin || 'Not selected'}</span></div><div class="date-item"><span>Check-out:</span><span>${checkout || 'Not selected'}</span></div>${nightsCount > 0 ? `<div class="date-item"><span>Total Nights:</span><span>${nightsCount} nights</span></div>` : ''}</div>
-        ${nightsCount > 0 ? `<div class="price-breakdown"><h4 style="margin-bottom: 1rem; color: var(--gold);">Price Breakdown</h4><div class="price-row"><span>Room (${formatKES(pricePerNight)} x ${nightsCount} nights)</span><span>${formatKES(subtotal)}</span></div><div class="price-row"><span>Service Fee (10%)</span><span>${formatKES(serviceFee)}</span></div><div class="price-row"><span>Tax (16% VAT)</span><span>${formatKES(tax)}</span></div><div class="price-row total"><span>Total Amount</span><span>${formatKES(total)}</span></div></div>` : ''}`;
+        ${nightsCount > 0 ? `<div class="price-breakdown"><h4 style="margin-bottom: 1rem; color: var(--gold);">Price Breakdown</h4><div class="price-row"><span>Room (${formatKES(pricePerNight)} x ${nightsCount} nights)</span><span>${formatKES(subtotal)}</span></div><div class="price-row"><span>Service Fee (10%)</span><span>${formatKES(serviceFee)}</span></div><div class="price-row"><span>Tax (16% VAT)</span><span>${formatKES(tax)}</span></div><div class="price-row total"><span>Total Amount</span><span>${formatKES(total)}</span></div></div>` : ''}
+        ${availabilityHtml}`;
+}
+
+function showAvailabilityAlert(isAvailable, message, details = '') {
+    const alertContainer = document.getElementById('availabilityAlert');
+    if (!alertContainer) return;
+    
+    if (!isAvailable && isAvailable !== undefined) {
+        // Show unavailable alert - BIG and BOLD
+        alertContainer.style.display = 'block';
+        alertContainer.innerHTML = `
+            <div class="availability-alert alert-unavailable">
+                <div class="alert-content">
+                    <div class="alert-icon">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                    <div class="alert-message">
+                        <div class="alert-title">⛔ ROOM NOT AVAILABLE!</div>
+                        <div class="alert-description">${message || 'This room is already booked for your selected dates.'}</div>
+                        ${details ? `<div class="alert-description" style="margin-top: 5px; font-size: 0.8rem;">${details}</div>` : ''}
+                    </div>
+                </div>
+                <div class="suggestion-box">
+                    <p><i class="fas fa-lightbulb"></i> <strong>Suggestions:</strong></p>
+                    <div class="suggestion-dates">
+                        <button class="suggestion-btn" onclick="suggestAlternativeDates(3)">Try +3 days later</button>
+                        <button class="suggestion-btn" onclick="suggestAlternativeDates(7)">Try +1 week later</button>
+                        <button class="suggestion-btn" onclick="suggestAlternativeDates(14)">Try +2 weeks later</button>
+                    </div>
+                </div>
+            </div>
+        `;
+    } else if (isAvailable === true) {
+        // Show available alert - GREEN and CLEAR
+        alertContainer.style.display = 'block';
+        alertContainer.innerHTML = `
+            <div class="availability-alert alert-available">
+                <div class="alert-content">
+                    <div class="alert-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="alert-message">
+                        <div class="alert-title">✅ ROOM AVAILABLE!</div>
+                        <div class="alert-description">${message || 'This room is available for your selected dates. You can proceed with your booking.'}</div>
+                    </div>
+                </div>
+            </div>
+        `;
+    } else if (isAvailable === null) {
+        // Show checking alert
+        alertContainer.style.display = 'block';
+        alertContainer.innerHTML = `
+            <div class="availability-alert alert-checking">
+                <div class="alert-content">
+                    <div class="alert-icon">
+                        <i class="fas fa-spinner fa-spin"></i>
+                    </div>
+                    <div class="alert-message">
+                        <div class="alert-title">⏳ Checking Availability...</div>
+                        <div class="alert-description">Please wait while we verify room availability for your selected dates.</div>
+                    </div>
+                </div>
+            </div>
+        `;
+    } else {
+        alertContainer.style.display = 'none';
+    }
+}
+
+function suggestAlternativeDates(daysToAdd) {
+    const checkinInput = document.getElementById('checkin');
+    const checkoutInput = document.getElementById('checkout');
+    
+    if (checkinInput && checkinInput.value) {
+        const newCheckin = new Date(checkinInput.value);
+        newCheckin.setDate(newCheckin.getDate() + daysToAdd);
+        
+        const newCheckout = new Date(checkoutInput.value);
+        newCheckout.setDate(newCheckout.getDate() + daysToAdd);
+        
+        const formattedCheckin = newCheckin.toISOString().split('T')[0];
+        const formattedCheckout = newCheckout.toISOString().split('T')[0];
+        
+        checkinInput.value = formattedCheckin;
+        checkoutInput.value = formattedCheckout;
+        
+        updateSummary();
+        checkAvailability();
+        
+        showToast(`Checking availability for ${formattedCheckin} to ${formattedCheckout}`, 'info');
+    }
+}
+
+async function checkAvailability() {
+    const roomId = document.getElementById('roomSelect')?.value;
+    const checkin = document.getElementById('checkin')?.value;
+    const checkout = document.getElementById('checkout')?.value;
+    const submitBtn = document.getElementById('submitBtn');
+    
+    if (!roomId || !checkin || !checkout) {
+        currentAvailability = false;
+        if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-check-circle"></i> Select Room & Dates';
+        }
+        showAvailabilityAlert(undefined);
+        updateSummary();
+        return;
+    }
+    
+    // Validate dates
+    const today = new Date().toISOString().split('T')[0];
+    if (checkin < today) {
+        showToast('Check-in date cannot be in the past', 'error');
+        currentAvailability = false;
+        if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-times-circle"></i> Invalid Check-in Date';
+        }
+        showAvailabilityAlert(false, 'Invalid check-in date', 'Please select a date from today onwards.');
+        updateSummary();
+        return;
+    }
+    
+    if (checkout <= checkin) {
+        showToast('Check-out must be after check-in', 'error');
+        currentAvailability = false;
+        if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-times-circle"></i> Invalid Date Range';
+        }
+        showAvailabilityAlert(false, 'Invalid date range', 'Check-out must be at least one day after check-in.');
+        updateSummary();
+        return;
+    }
+    
+    // Show checking status
+    isCheckingAvailability = true;
+    showAvailabilityAlert(null);
+    
+    try {
+        const response = await fetch(`api.php?action=checkAvailability&room_id=${roomId}&check_in=${checkin}&check_out=${checkout}`);
+        const data = await response.json();
+        
+        if (data.success) {
+            currentAvailability = data.available;
+            
+            if (currentAvailability) {
+                showAvailabilityAlert(true, 'Great news! This room is available for your selected dates.');
+                if (submitBtn) {
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = '<i class="fas fa-check-circle"></i> ✅ Confirm Booking';
+                }
+            } else {
+                showAvailabilityAlert(false, 'Sorry, this room is not available for the selected dates.', 'The room may already be booked for these dates. Please try different dates or another room.');
+                if (submitBtn) {
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = '<i class="fas fa-times-circle"></i> ❌ Room Not Available';
+                }
+            }
+        } else {
+            currentAvailability = false;
+            showAvailabilityAlert(false, 'Unable to verify availability.', 'Please try again or contact us directly.');
+            if (submitBtn) submitBtn.disabled = true;
+        }
+    } catch (error) {
+        console.error('Availability check error:', error);
+        currentAvailability = false;
+        showAvailabilityAlert(false, 'Error checking availability.', 'Please refresh the page and try again.');
+        if (submitBtn) submitBtn.disabled = true;
+    } finally {
+        isCheckingAvailability = false;
+        updateSummary();
+    }
 }
 
 function setMinDates() {
@@ -245,13 +569,31 @@ function setMinDates() {
         checkinInput.min = today;
         if (params.checkin) checkinInput.value = params.checkin;
         if (params.checkout) checkoutInput.value = params.checkout;
-        checkinInput.addEventListener('change', () => { if (checkinInput.value) { checkoutInput.min = checkinInput.value; updateSummary(); } });
+        checkinInput.addEventListener('change', () => { 
+            if (checkinInput.value) { 
+                checkoutInput.min = checkinInput.value; 
+                updateSummary();
+                checkAvailability();
+            } 
+        });
     }
-    if (checkoutInput) checkoutInput.addEventListener('change', updateSummary);
+    if (checkoutInput) {
+        checkoutInput.addEventListener('change', () => {
+            updateSummary();
+            checkAvailability();
+        });
+    }
 }
 
 async function submitBooking(e) {
     e.preventDefault();
+    
+    // Double-check availability before submitting
+    if (!currentAvailability) {
+        showToast('This room is not available for the selected dates. Please choose different dates.', 'error');
+        return;
+    }
+    
     const bookingData = {
         name: document.getElementById('fullname').value.trim(),
         phone: document.getElementById('phone').value.trim(),
@@ -283,15 +625,36 @@ async function submitBooking(e) {
             document.getElementById('bookingRef').innerHTML = result.reference;
             document.getElementById('successModal').style.display = 'flex';
             document.getElementById('bookingForm').reset();
+            document.getElementById('roomSelect').value = '';
+            selectedRoom = null;
+            currentAvailability = false;
+            updateSummary();
+            showAvailabilityAlert(undefined);
             showToast(result.message, 'success');
-            setTimeout(() => { document.getElementById('successModal').style.display = 'none'; window.location.href = 'index.html'; }, 3000);
-        } else { showToast(result.message, 'error'); }
-    } catch (error) { showToast('Booking failed. Please try again.', 'error'); }
-    finally { submitBtn.innerHTML = originalText; submitBtn.disabled = false; }
+        } else {
+            showToast(result.message, 'error');
+            if (result.message.includes('not available')) {
+                await checkAvailability();
+            }
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = originalText;
+        }
+    } catch (error) { 
+        showToast('Booking failed. Please try again.', 'error');
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalText;
+    }
 }
 
-function closeModal() { document.getElementById('successModal').style.display = 'none'; window.location.href = 'index.html'; }
-function escapeHtml(str) { if (!str) return ''; return String(str).replace(/[&<>]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[m])); }
+function closeModal() { 
+    document.getElementById('successModal').style.display = 'none'; 
+    window.location.href = 'my-booking.php?ref=' + document.getElementById('bookingRef').innerHTML;
+}
+
+function escapeHtml(str) { 
+    if (!str) return ''; 
+    return String(str).replace(/[&<>]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[m])); 
+}
 
 // Mobile menu
 document.getElementById('mobileMenu')?.addEventListener('click', () => {
@@ -304,13 +667,32 @@ document.addEventListener('DOMContentLoaded', async () => {
     const roomSelect = document.getElementById('roomSelect');
     const checkinInput = document.getElementById('checkin');
     const checkoutInput = document.getElementById('checkout');
-    if (roomSelect) roomSelect.addEventListener('change', async () => { if (roomSelect.value) await loadRoomDetails(roomSelect.value); else { selectedRoom = null; updateSummary(); } });
+    
+    if (roomSelect) {
+        roomSelect.addEventListener('change', async () => { 
+            if (roomSelect.value) {
+                await loadRoomDetails(roomSelect.value);
+            } else { 
+                selectedRoom = null; 
+                currentAvailability = false;
+                updateSummary();
+                showAvailabilityAlert(undefined);
+                const submitBtn = document.getElementById('submitBtn');
+                if (submitBtn) {
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = '<i class="fas fa-check-circle"></i> Select a Room';
+                }
+            } 
+        });
+    }
     if (checkinInput) checkinInput.addEventListener('change', updateSummary);
     if (checkoutInput) checkoutInput.addEventListener('change', updateSummary);
+    
     document.getElementById('bookingForm')?.addEventListener('submit', submitBooking);
 });
 
 window.closeModal = closeModal;
+window.suggestAlternativeDates = suggestAlternativeDates;
 </script>
 </body>
 </html>
